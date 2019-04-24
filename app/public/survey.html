@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Friend Finder Survey</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Font Awesome (icons) -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- jQuery Link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- Header -->
+      <div class="card">
+        <div class="card-body">
+          <h3><i class="far fa-question-circle"></i> Survey Questions</h3>
+        </div>
+      </div>
+
+      <!-- About You Name & Photo -->
+      <div class="card">
+        <div class="card-body">
+          <h3></i> About You</h3>
+          <form>
+            <div class="form-group">
+              <label for="nameInput">Your Name</label>
+              <input class="form-control" id="nameInput">
+            </div>
+            <div class="form-group">
+              <label for="photoInput">Link to Photo</label>
+              <input class="form-control" id="photoInput">
+            </div>
+            <p><strong>Answer the questions below: 1 (strongly disagree) to 5 (strongly agree)</strong></p>
+
+            <!-- 10 Questions -->
+            <div class="form-group">
+              <label for="question1">Question 1: I like to go to bed early</label>
+              <select class="form-control" id="question1">
+                <option selected>Select an option:</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="question2">Question 2: I believe in work hard, play hard</label>
+              <select class="form-control" id="question2">
+                <option selected>Select an option:</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="question3">Question 3: I prefer to do outdoor activities</label>
+              <select class="form-control" id="question3">
+                <option selected>Select an option:</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="question4">Question 4: I love physical activities</label>
+              <select class="form-control" id="question4">
+                <option selected>Select an option:</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="question5">Question 5: I prefer dogs to cats</label>
+              <select class="form-control" id="question5">
+                <option selected>Select an option:</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="question6">Question 6: I am happy with my current lifestyle</label>
+              <select class="form-control" id="question6">
+                <option selected>Select an option:</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="question7">Question 7: I prefer a quite night in</label>
+              <select class="form-control" id="question7">
+                <option selected>Select an option:</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="question8">Question 8: People feel comfortable around me</label>
+              <select class="form-control" id="question8">
+                <option selected>Select an option:</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="question9">Question 9: I love trying new things</label>
+              <select class="form-control" id="question9">
+                <option selected>Select an option:</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="question10">Question 10: I can deal with things when they go wrong easily</label>
+              <select class="form-control" id="question10">
+                <option selected>Select an option:</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="survey-button">Submit Answers</button>
+
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Link -->
+      <div class="links">
+        <a href="/api/friends">API Friends List</a>
+      </div>
+
+    <!-- Modal displaying the best match -->
+    <div class="modal" tabindex="-1" role="dialog" id="friendmodal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Meet your new Best Friend!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5 id="matchName"></h5>
+            <img id="matchPic" src="" alt="Friend Picture" width="100%">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- Adding answers to friends.js array -->
+
+    <script type="text/javascript">
+      $("#survey-button").on("click", function(event) {
+        event.preventDefault();
+        var newFriend = {
+          name: $("#nameInput").val().trim(),
+          photo: $("#photoInput").val().trim(),
+          scores: [
+            $("#question1").val().trim(),
+            $("#question2").val().trim(),
+            $("#question3").val().trim(),
+            $("#question4").val().trim(),
+            $("#question5").val().trim(),
+            $("#question6").val().trim(),
+            $("#question7").val().trim(),
+            $("#question8").val().trim(),
+            $("#question9").val().trim(),
+            $("#question10").val().trim()
+          ]
+        };
+        $.post("/api/friends", newFriend, function(data) {
+                //Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                $('#matchName').html(data.matchName);
+		    	      $("#matchPic").attr("src", data.matchImage);
+            });
+            $("#friendmodal").modal('show');
+      });
+    </script>
+
+  </body>
+</html>
