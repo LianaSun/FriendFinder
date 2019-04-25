@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LianaSun/FriendFinder.git"
+    "url": "git+https://github.com/lianasun/FriendFinder.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LianaSun/FriendFinder/issues"
+    "url": "https://github.com/lianasun/FriendFinder/issues"
   },
-  "homepage": "https://github.com/LianaSun/FriendFinder#readme",
+  "homepage": "https://github.com/lianasun/FriendFinder#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
