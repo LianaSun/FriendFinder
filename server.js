@@ -7,7 +7,7 @@ var path = require("path");
 var app = express();
 
 //PORT Listener
-var PORT = 8080;
+var PORT = process.env.port || 8080;
 
 //Express data parsing
 app.use(bodyParser.urlencoded({ extended = true }));
